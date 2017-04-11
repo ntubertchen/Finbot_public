@@ -1,0 +1,11 @@
+O
+I-country2
+I-country1
+B-type
+B-buy
+B-money_name
+I-symbol
+B-date
+B-country2
+B-country1
+B-symbol

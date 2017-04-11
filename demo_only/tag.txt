@@ -1,0 +1,36 @@
+B-country2 RUB 
+B-country1 FRF 
+*****
+B-country2 RUB 
+B-country1 FRF 
+*****
+B-country2 HKD 
+B-country1 FRF 
+*****
+B-country2 HKD 
+B-country1 FRF 
+*****
+B-country2 PEN 
+B-country1 FRF 
+*****
+B-country2 PEN 
+B-country1 FRF 
+*****
+B-country2 JEP 
+B-country1 FRF 
+*****
+B-country2 JEP 
+B-country1 FRF 
+*****
+B-country2 KRW 
+B-country1 FRF 
+*****
+B-country2 KRW 
+B-country1 FRF 
+*****
+B-country2 ETB 
+B-country1 FRF 
+*****
+B-country2 ETB 
+B-country1 FRF 
+*****
