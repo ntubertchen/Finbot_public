@@ -147,7 +147,7 @@ class episode(object):
     user_goal = ["exchange","query","get_exchange_rate","USDX"]
     
     exchange = {"country1":Country,"country2":Country}
-    query = {"symbol":symbol,"stock_name":company_name,"date":None}#,"field":field}
+    query = {"stock_name":company_name,"date":None}#,"field":field}
     USDX = {"time_start":None,"time_end":None}
     get_exchange_rate = {"money_name": Money_name, "types":["account","cash"], "action":["buy","sell"]}
     slots = {"exchange":exchange, "query":query, "get_exchange_rate":get_exchange_rate,"USDX":USDX}
