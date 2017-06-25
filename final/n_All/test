@@ -1,0 +1,10 @@
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** cash
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** account
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** in cash
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** use account
+USDX SYSTEM_ACTION request B-time_start ***next*** start in 03/14
+USDX SYSTEM_ACTION request B-time_start ***next*** 03/14
+USDX SYSTEM_ACTION request B-time_start ***next*** start at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** end in 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** 03/14

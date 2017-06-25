@@ -1,0 +1,2296 @@
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION ***next*** hi
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION ***next*** hi
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION ***next*** hi
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+query  SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+USDX SYSTEM_ACTION confirm_int USDX ***next*** yes
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query SYSTEM_ACTION confirm_int query ***next*** yes
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+USDX B-time_end SYSTEM_ACTION confirm_slot B-time_end ***next*** yes
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX until 2017/01/01.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate B-money_name B-action SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+get_exchange_rate B-action B-types SYSTEM_ACTION confirm_slot B-action B-types ***next*** yes
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query SYSTEM_ACTION confirm_int query ***next*** no
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION ***next*** hi
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+exchange SYSTEM_ACTION confirm_int exchange ***next*** yes
+ SYSTEM_ACTION  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX until 2017/01/01.
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+USDX  SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+ SYSTEM_ACTION  ***next*** I want to exchange my currency
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** show me the stock price
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+USDX B-time_end SYSTEM_ACTION confirm_slot B-time_end ***next*** yes
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** yes
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+query B-stock_name SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+USDX SYSTEM_ACTION confirm_int USDX ***next*** yes
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX since 2017/01/01
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+USDX B-time_end SYSTEM_ACTION confirm_slot B-time_end ***next*** no
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+query B-stock_name B-date SYSTEM_ACTION confirm_slot B-stock_name B-date ***next*** no
+ SYSTEM_ACTION  ***next*** I want to exchange my currency
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+exchange SYSTEM_ACTION confirm_int exchange ***next*** no
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** I want to buy some USD.
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+get_exchange_rate B-money_name B-types SYSTEM_ACTION confirm_slot B-money_name B-types ***next*** yes
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION ***next*** hi
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+USDX B-time_start SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** I want to buy some USD.
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** no
+USDX  SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+USDX B-time_start SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+USDX B-time_start B-time_end SYSTEM_ACTION confirm_slot B-time_start B-time_end ***next*** no
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+exchange SYSTEM_ACTION confirm_int exchange ***next*** yes
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** I want to exchange my currency
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-money_name SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+query B-stock_name SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+get_exchange_rate B-money_name SYSTEM_ACTION confirm_slot B-money_name ***next*** no
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+ SYSTEM_ACTION  ***next*** I want to buy some USD.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+get_exchange_rate B-action B-types SYSTEM_ACTION confirm_slot B-action B-types ***next*** no
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** show me the stock price
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX until 2017/01/01.
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** I want to buy some USD.
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+get_exchange_rate B-action SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+query B-date SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+exchange B-country B-country SYSTEM_ACTION confirm_slot B-country B-country ***next*** no
+ SYSTEM_ACTION  ***next*** 2017-03-01
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+exchange B-country SYSTEM_ACTION response B-country B-country ***next*** thanks
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION ***next*** hi
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** I want to exchange my currency
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** show me the stock price
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION ***next*** hi
+USDX SYSTEM_ACTION confirm_int USDX ***next*** yes
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION confirm_slot B-money_name B-types B-action ***next*** yes
+USDX B-time_start SYSTEM_ACTION confirm_slot B-time_start ***next*** yes
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+USDX B-time_end SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+get_exchange_rate B-money_name B-action SYSTEM_ACTION confirm_slot B-money_name B-action ***next*** no
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** show me the stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION ***next*** hi
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+USDX B-time_start SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+ SYSTEM_ACTION  ***next*** I want to buy some USD.
+ SYSTEM_ACTION ***next*** hi
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** I want to buy some USD.
+query B-stock_name SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION ***next*** hi
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** I want to exchange my currency
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+USDX B-time_end SYSTEM_ACTION confirm_slot B-time_end ***next*** no
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX until 2017/01/01.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** I want to buy some USD.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** I want to exchange my currency
+exchange SYSTEM_ACTION confirm_int exchange ***next*** no
+ SYSTEM_ACTION  ***next*** show me the stock price
+query SYSTEM_ACTION confirm_int query ***next*** yes
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+exchange B-country B-country SYSTEM_ACTION response B-country B-country ***next*** thanks
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION ***next*** hi
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+ SYSTEM_ACTION ***next*** hi
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION ***next*** hi
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+ SYSTEM_ACTION ***next*** hi
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+query B-stock_name SYSTEM_ACTION confirm_slot B-stock_name ***next*** no
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** 2017-03-01
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+exchange B-country SYSTEM_ACTION confirm_slot B-country ***next*** yes
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+get_exchange_rate B-action SYSTEM_ACTION confirm_slot B-action ***next*** no
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** 2017-03-01
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION confirm_slot B-money_name B-types B-action ***next*** no
+USDX B-time_end SYSTEM_ACTION confirm_slot B-time_end ***next*** no
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+query B-stock_name SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+USDX B-time_end SYSTEM_ACTION confirm_slot B-time_end ***next*** yes
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** Give me the USDX until 2017/05/01.
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** show me the stock price
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query SYSTEM_ACTION confirm_int query ***next*** yes
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+query B-date SYSTEM_ACTION confirm_slot B-date ***next*** yes
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** show me the stock price
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX B-time_start B-time_end SYSTEM_ACTION confirm_slot B-time_start B-time_end ***next*** no
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** Give me the USDX until 2017/05/01.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION ***next*** hi
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+USDX SYSTEM_ACTION confirm_int USDX ***next*** no
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** I want to buy some USD.
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+query B-stock_name B-date SYSTEM_ACTION confirm_slot B-stock_name B-date ***next*** yes
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+exchange B-country SYSTEM_ACTION response B-country B-country ***next*** thanks
+USDX  SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+USDX  SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** I want to exchange my currency
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX since 2017/01/01
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION ***next*** hi
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+exchange B-country B-country SYSTEM_ACTION confirm_slot B-country B-country ***next*** yes
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+ SYSTEM_ACTION ***next*** hi
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+USDX B-time_start B-time_end SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION ***next*** hi
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** I want to buy some USD.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+USDX B-time_start SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+get_exchange_rate B-money_name B-types SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+get_exchange_rate B-action B-types SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+ SYSTEM_ACTION  ***next*** Give me the USDX until 2017/05/01.
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+exchange B-country B-country SYSTEM_ACTION confirm_slot B-country B-country ***next*** yes
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** show me the stock price
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+USDX SYSTEM_ACTION confirm_int USDX ***next*** yes
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+USDX SYSTEM_ACTION confirm_int USDX ***next*** no
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION ***next*** hi
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX  SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** show me the stock price
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** I want to buy some USD.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** no
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** no
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION ***next*** hi
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** I want to exchange my currency
+ SYSTEM_ACTION  ***next*** 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** show me the stock price
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION ***next*** hi
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** show me the stock price
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+query B-date SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** 2017-03-01
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+query  SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+USDX SYSTEM_ACTION confirm_int USDX ***next*** yes
+USDX B-time_end SYSTEM_ACTION confirm_slot B-time_end ***next*** yes
+ SYSTEM_ACTION ***next*** hi
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** I want to exchange my currency
+exchange SYSTEM_ACTION confirm_int exchange ***next*** yes
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** yes
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION ***next*** hi
+get_exchange_rate  SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+get_exchange_rate B-action B-types SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** no
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** 2017-03-01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+USDX B-time_start SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+USDX B-time_end SYSTEM_ACTION confirm_slot B-time_end ***next*** yes
+ SYSTEM_ACTION ***next*** hi
+USDX B-time_start SYSTEM_ACTION confirm_slot B-time_start ***next*** yes
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION ***next*** hi
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** yes
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+USDX B-time_end SYSTEM_ACTION confirm_slot B-time_end ***next*** yes
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION ***next*** hi
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+query B-stock_name SYSTEM_ACTION confirm_slot B-stock_name ***next*** yes
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+USDX B-time_start B-time_end SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+get_exchange_rate B-money_name SYSTEM_ACTION confirm_slot B-money_name ***next*** no
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+get_exchange_rate B-action SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** I want to buy some USD.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+exchange B-country SYSTEM_ACTION confirm_slot B-country ***next*** no
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+USDX B-time_start SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** I want to exchange my currency
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+exchange B-country SYSTEM_ACTION confirm_slot B-country ***next*** no
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+exchange SYSTEM_ACTION confirm_int exchange ***next*** yes
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+USDX B-time_start B-time_end SYSTEM_ACTION confirm_slot B-time_start B-time_end ***next*** no
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** I want to buy some USD.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+query B-date SYSTEM_ACTION confirm_slot B-date ***next*** yes
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** Give me the USDX until 2017/05/01.
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** show me the stock price
+ SYSTEM_ACTION ***next*** hi
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX B-time_start SYSTEM_ACTION confirm_slot B-time_start ***next*** no
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+USDX B-time_start SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION ***next*** hi
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+query B-stock_name SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+USDX B-time_start B-time_end SYSTEM_ACTION confirm_slot B-time_start B-time_end ***next*** no
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+USDX B-time_start B-time_end SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+get_exchange_rate B-money_name SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+USDX  SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+query B-stock_name B-date SYSTEM_ACTION confirm_slot B-stock_name B-date ***next*** no
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+USDX SYSTEM_ACTION confirm_int USDX ***next*** yes
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION ***next*** hi
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+USDX SYSTEM_ACTION confirm_int USDX ***next*** no
+ SYSTEM_ACTION  ***next*** 2017-03-01
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+USDX SYSTEM_ACTION confirm_int USDX ***next*** no
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** no
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION ***next*** hi
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+exchange B-country B-country SYSTEM_ACTION confirm_slot B-country B-country ***next*** yes
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+query B-date SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+ SYSTEM_ACTION  ***next*** show me the stock price
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX until 2017/01/01.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION  ***next*** Give me the USDX until 2017/05/01.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX since 2017/01/01
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+query B-date SYSTEM_ACTION confirm_slot B-date ***next*** no
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+USDX B-time_start B-time_end SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX since 2017/01/01
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+query SYSTEM_ACTION confirm_int query ***next*** no
+get_exchange_rate  SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange B-country SYSTEM_ACTION confirm_slot B-country ***next*** no
+exchange B-country B-country SYSTEM_ACTION confirm_slot B-country B-country ***next*** yes
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** show me the stock price
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+exchange B-country SYSTEM_ACTION response B-country B-country ***next*** thanks
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+query B-stock_name B-date SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+ SYSTEM_ACTION ***next*** hi
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** show me the stock price
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION ***next*** hi
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+USDX B-time_start SYSTEM_ACTION confirm_slot B-time_start ***next*** yes
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** I want to buy some USD.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** I want to buy some USD.
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+query B-stock_name B-date SYSTEM_ACTION confirm_slot B-stock_name B-date ***next*** yes
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX until 2017/01/01.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+get_exchange_rate B-money_name B-types SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX B-time_start B-time_end SYSTEM_ACTION confirm_slot B-time_start B-time_end ***next*** no
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** I want to exchange my currency
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+query  SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX since 2017/01/01
+USDX SYSTEM_ACTION confirm_int USDX ***next*** no
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX since 2017/01/01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION ***next*** hi
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+exchange B-country SYSTEM_ACTION response B-country B-country ***next*** thanks
+ SYSTEM_ACTION  ***next*** I want to exchange my currency
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+exchange  SYSTEM_ACTION response B-country B-country ***next*** thanks
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+exchange SYSTEM_ACTION confirm_int exchange ***next*** yes
+ SYSTEM_ACTION  ***next*** show me the stock price
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** 2017-03-01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** 2017-03-01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+exchange B-country B-country SYSTEM_ACTION response B-country B-country ***next*** thanks
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+ SYSTEM_ACTION ***next*** hi
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION ***next*** hi
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION  ***next*** I want to exchange my currency
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX until 2017/01/01.
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX until 2017/01/01.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** Give me the USDX until 2017/05/01.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** 2017-03-01
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate B-types SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+query SYSTEM_ACTION confirm_int query ***next*** no
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+query B-stock_name SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+USDX B-time_start SYSTEM_ACTION confirm_slot B-time_start ***next*** yes
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+exchange B-country B-country SYSTEM_ACTION confirm_slot B-country B-country ***next*** yes
+ SYSTEM_ACTION ***next*** hi
+query B-date SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+USDX SYSTEM_ACTION confirm_int USDX ***next*** yes
+ SYSTEM_ACTION  ***next*** show me the stock price
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+ SYSTEM_ACTION ***next*** hi
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION ***next*** hi
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** yes
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+exchange SYSTEM_ACTION confirm_int exchange ***next*** no
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** yes
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION ***next*** hi
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** I want to exchange my currency
+ SYSTEM_ACTION ***next*** hi
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX since 2017/01/01
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+ SYSTEM_ACTION ***next*** hi
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+exchange SYSTEM_ACTION confirm_int exchange ***next*** no
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX since 2017/01/01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** show me the stock price
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+USDX B-time_start B-time_end SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** show me the stock price
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION ***next*** hi
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** show me the stock price
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+exchange B-country B-country SYSTEM_ACTION confirm_slot B-country B-country ***next*** no
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX since 2017/01/01
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+get_exchange_rate B-types SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+USDX SYSTEM_ACTION confirm_int USDX ***next*** no
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+query B-stock_name SYSTEM_ACTION confirm_slot B-stock_name ***next*** yes
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION ***next*** hi
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** show me the stock price
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate  SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** 2017-03-01
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** 2017-03-01
+ SYSTEM_ACTION ***next*** hi
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+ SYSTEM_ACTION ***next*** hi
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+get_exchange_rate  SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+USDX  SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+get_exchange_rate B-money_name B-action SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** show me the stock price
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION ***next*** hi
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+get_exchange_rate B-types SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange B-country SYSTEM_ACTION response B-country B-country ***next*** thanks
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+USDX  SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+query B-stock_name SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+USDX B-time_end SYSTEM_ACTION confirm_slot B-time_end ***next*** no
+USDX B-time_start SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+query  SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+query B-date SYSTEM_ACTION confirm_slot B-date ***next*** yes
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+exchange B-country SYSTEM_ACTION response B-country B-country ***next*** thanks
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+query SYSTEM_ACTION confirm_int query ***next*** yes
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+get_exchange_rate B-money_name SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+ SYSTEM_ACTION  ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+USDX B-time_start SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+USDX SYSTEM_ACTION confirm_int USDX ***next*** yes
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** no
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** show me the stock price
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+ SYSTEM_ACTION ***next*** hi
+USDX B-time_end SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX until 2017/01/01.
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION ***next*** hi
+exchange B-country B-country SYSTEM_ACTION response B-country B-country ***next*** thanks
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+get_exchange_rate B-types SYSTEM_ACTION confirm_slot B-types ***next*** yes
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+query SYSTEM_ACTION confirm_int query ***next*** yes
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION ***next*** hi
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query SYSTEM_ACTION confirm_int query ***next*** no
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** show me the stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+exchange B-country B-country SYSTEM_ACTION response B-country B-country ***next*** thanks
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** show me the USDX starts in 2017-01-01
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+query B-date SYSTEM_ACTION confirm_slot B-date ***next*** no
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+ SYSTEM_ACTION  ***next*** show me the stock price
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+query B-stock_name B-date SYSTEM_ACTION confirm_slot B-stock_name B-date ***next*** yes
+get_exchange_rate B-money_name B-action SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+query B-date SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION  ***next*** 2017-03-01
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** show me the stock price
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** Give me the USDX until 2017/05/01.
+ SYSTEM_ACTION ***next*** hi
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** I'd like to sell some CNY.
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+get_exchange_rate B-action B-types SYSTEM_ACTION confirm_slot B-action B-types ***next*** yes
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+ SYSTEM_ACTION  ***next*** I want to buy some USD.
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** yes
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+query B-stock_name SYSTEM_ACTION request B-date ***next*** 2017-03-01
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+query B-stock_name SYSTEM_ACTION request B-date ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+exchange B-country SYSTEM_ACTION response B-country B-country ***next*** thanks
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** Give me the USDX until 2017/05/01.
+get_exchange_rate B-types SYSTEM_ACTION request B-money_name ***next*** I'd like to sell some CNY.
+query B-stock_name B-date SYSTEM_ACTION confirm_slot B-stock_name B-date ***next*** yes
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** I'd like to know the USDX until 2017/01/01.
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate B-action B-types SYSTEM_ACTION confirm_slot B-action B-types ***next*** yes
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** no
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** Give me the exchange rate between USD and NTD.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+query B-date SYSTEM_ACTION request B-stock_name ***next*** show me Comstock Mining stock price
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** no
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+get_exchange_rate B-types SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+ SYSTEM_ACTION  ***next*** What is the exchange rate of USD?
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange B-country SYSTEM_ACTION request B-country ***next*** How's the exchange rate of Japanese Yen?
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** show me the USDX starts in 2017-01-01
+get_exchange_rate  SYSTEM_ACTION request B-money_name B-types B-action ***next*** i want to buy USD with cash
+get_exchange_rate B-money_name SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+get_exchange_rate B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+USDX B-time_end SYSTEM_ACTION confirm_slot B-time_end ***next*** yes
+ SYSTEM_ACTION ***next*** hi
+USDX B-time_start B-time_end SYSTEM_ACTION request  ***next*** Show me the USDX information.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+get_exchange_rate B-action B-types SYSTEM_ACTION request B-money_name ***next*** I want to buy some USD.
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+get_exchange_rate B-money_name B-action SYSTEM_ACTION request B-types ***next*** I want to exchange the money in my account
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+USDX B-time_end SYSTEM_ACTION request B-time_start ***next*** I'd like to know the USDX since 2017/01/01
+ SYSTEM_ACTION  ***next*** show me the stock price
+ SYSTEM_ACTION ***next*** hi
+ SYSTEM_ACTION  ***next*** Show me the USDX information.
+ SYSTEM_ACTION ***next*** hi
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+get_exchange_rate B-money_name B-types SYSTEM_ACTION request B-action ***next*** I want to buy some foreign currency
+ SYSTEM_ACTION  ***next*** show me the stock price
+get_exchange_rate B-money_name B-types B-action SYSTEM_ACTION request  ***next*** I want to exchange my currency
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** yes
+exchange B-country SYSTEM_ACTION confirm_slot B-country ***next*** no
+ SYSTEM_ACTION  ***next*** i want to buy USD with cash
+get_exchange_rate SYSTEM_ACTION confirm_int get_exchange_rate ***next*** yes
+ SYSTEM_ACTION  ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+exchange B-country B-country SYSTEM_ACTION request  ***next*** Give me the exchange rate.
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** I'd like to know the USDX until 2017/01/01.
+query B-stock_name SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+ SYSTEM_ACTION  ***next*** I want to exchange the money in my account
+ SYSTEM_ACTION  ***next*** I want to exchange my currency
+query B-stock_name B-date SYSTEM_ACTION request  ***next*** show me the stock price
+exchange  SYSTEM_ACTION request B-country B-country ***next*** Give me the exchange rate between USD and NTD.
+USDX B-time_start SYSTEM_ACTION response B-time_start B-time_end ***next*** thanks
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** I want to exchange my cash
+ SYSTEM_ACTION  ***next*** Give me the exchange rate.
+query B-date SYSTEM_ACTION response B-stock_name B-date ***next*** thanks
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+get_exchange_rate B-types SYSTEM_ACTION response B-money_name B-types B-action ***next*** thanks
+USDX B-time_start SYSTEM_ACTION request B-time_end ***next*** Give me the USDX until 2017/05/01.
+query SYSTEM_ACTION confirm_int query ***next*** no
+USDX  SYSTEM_ACTION request B-time_start B-time_end ***next*** give me the USDX from 2017-01-02 to 2017-03-14
+ SYSTEM_ACTION  ***next*** How's the exchange rate of Japanese Yen?
+ SYSTEM_ACTION  ***next*** give me 2017-03-01
+ SYSTEM_ACTION  ***next*** I want to buy some foreign currency
+exchange B-country B-country SYSTEM_ACTION confirm_slot B-country B-country ***next*** yes
+query  SYSTEM_ACTION request B-stock_name B-date ***next*** show me Comstock Mining stock price on 2017-03-01
+exchange B-country SYSTEM_ACTION request B-country ***next*** What is the exchange rate of USD?
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me yahoo stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me nvidia stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me apple stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me tsmc stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me google stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me intel stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me htc stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me apple inc stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me Foxconn stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me facebook stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me acer stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me MTK stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me mediatek stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me asus stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me yahoo stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me nvidia stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me apple stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me tsmc stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me google stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me intel stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me htc stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me apple inc stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me Foxconn stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me facebook stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me acer stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me MTK stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me mediatek stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me asus stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me yahoo stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me nvidia stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me apple stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me tsmc stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me google stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me intel stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me htc stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me apple inc stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me Foxconn stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me facebook stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me acer stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me MTK stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me mediatek stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me asus stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me yahoo stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me nvidia stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me apple stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me tsmc stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me google stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me intel stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me htc stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me apple inc stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me Foxconn stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me facebook stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me acer stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me MTK stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me mediatek stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me asus stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me yahoo stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me nvidia stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me apple stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me tsmc stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me google stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me intel stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me htc stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me apple inc stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me Foxconn stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me facebook stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me acer stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me MTK stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me mediatek stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me asus stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me yahoo stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me nvidia stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me apple stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me tsmc stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me google stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me intel stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me htc stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me apple inc stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me Foxconn stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me facebook stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me acer stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me MTK stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me mediatek stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me asus stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me yahoo stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me nvidia stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me apple stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me tsmc stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me google stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me intel stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me htc stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me apple inc stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me Foxconn stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me facebook stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me acer stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me MTK stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***show me mediatek stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next***show me asus stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is yahoo stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is nvidia stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is apple stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** tsmc stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** google stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is intel stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is htc stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** apple inc stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** Foxconn stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is facebook stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is acer stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is MTK stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** mediatek stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** asus stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** yahoo stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** nvidia stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** apple stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is tsmc stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is google stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** intel stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is htc stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** apple inc stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is Foxconn stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is facebook stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is acer stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is MTK stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is mediatek stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is asus stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** yahoo stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** nvidia stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** apple stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is tsmc stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is google stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** intel stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is htc stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** apple inc stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** Foxconn stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is facebook stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** acer stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is MTK stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** mediatek stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** asus stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is yahoo stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is nvidia stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** apple stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** tsmc stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is google stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is intel stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** htc stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is apple inc stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** Foxconn stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is facebook stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** acer stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is MTK stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** mediatek stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** asus stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is yahoo stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** nvidia stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is apple stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** tsmc stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** google stock price
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is intel stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is htc stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is apple inc stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is Foxconn stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is facebook stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** acer stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** MTK stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** mediatek stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** asus stock price
+query B-date SYSTEM_ACTION request B-stock_name ***next*** yahoo 
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is nvidia stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is apple stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** tsmc 
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is google stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is intel stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is htc stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** apple inc 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** Foxconn 
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is facebook stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** acer 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** MTK 
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is mediatek stock price on 2017-03-01
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is asus stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** yahoo 
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is nvidia stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** apple 
+query  SYSTEM_ACTION request B-stock_name B-date ***next***what is tsmc stock price on 2017-03-01
+query B-date SYSTEM_ACTION request B-stock_name ***next*** google 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** intel 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** htc 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** apple inc 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** Foxconn 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** facebook 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** acer 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** MTK 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** mediatek 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** asus 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** yahoo 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** nvidia 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** apple 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** tsmc 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** google 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** intel 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** htc 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** apple inc 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** Foxconn 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** facebook 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** acer 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** MTK 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** mediatek 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** asus 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** yahoo 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** nvidia 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** apple 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** tsmc 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** google 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** intel 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** htc 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** apple inc 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** Foxconn 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** facebook 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** acer 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** MTK 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** mediatek 
+query B-date SYSTEM_ACTION request B-stock_name ***next*** asus 
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** cash
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** account
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** in cash
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** use account
+USDX SYSTEM_ACTION request B-time_start ***next*** start in 03/14
+USDX SYSTEM_ACTION request B-time_start ***next*** 03/14
+USDX SYSTEM_ACTION request B-time_start ***next*** start at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** end in 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** 03/14
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** cash
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** account
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** in cash
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** use account
+USDX SYSTEM_ACTION request B-time_start ***next*** start in 03/14
+USDX SYSTEM_ACTION request B-time_start ***next*** 03/14
+USDX SYSTEM_ACTION request B-time_start ***next*** start at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** end in 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** 03/14
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** cash
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** account
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** in cash
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** use account
+USDX SYSTEM_ACTION request B-time_start ***next*** start in 03/14
+USDX SYSTEM_ACTION request B-time_start ***next*** 03/14
+USDX SYSTEM_ACTION request B-time_start ***next*** start at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** end in 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** 03/14
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** cash
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** account
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** in cash
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** use account
+USDX SYSTEM_ACTION request B-time_start ***next*** start in 03/14
+USDX SYSTEM_ACTION request B-time_start ***next*** 03/14
+USDX SYSTEM_ACTION request B-time_start ***next*** start at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** end in 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** 03/14
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** cash
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** account
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** in cash
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** use account
+USDX SYSTEM_ACTION request B-time_start ***next*** start in 03/14
+USDX SYSTEM_ACTION request B-time_start ***next*** 03/14
+USDX SYSTEM_ACTION request B-time_start ***next*** start at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** end in 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** 03/14
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** cash
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** account
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** in cash
+get_exchange_rate B-action B-money_name SYSTEM_ACTION request B-types ***next*** use account
+USDX SYSTEM_ACTION request B-time_start ***next*** start in 03/14
+USDX SYSTEM_ACTION request B-time_start ***next*** 03/14
+USDX SYSTEM_ACTION request B-time_start ***next*** start at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** end in 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** end in 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** end in 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** end in 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** end in 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** at 03/14
+USDX SYSTEM_ACTION request B-time_end ***next*** 03/14
