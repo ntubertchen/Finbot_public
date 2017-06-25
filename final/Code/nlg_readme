@@ -1,0 +1,5 @@
+How to use:
+0. put nlg.json at same level as RNNNLG.py, the json file contains natrual language sentences
+1. import RNNNLG
+2. init class
+3. IMPORTANT action 'request' should have '?' at  the front -> ex: calss_name.func_name("?request","date") this is due to the training data
