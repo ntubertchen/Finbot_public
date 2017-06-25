@@ -9,9 +9,10 @@ Available using tensorflow 1.0 or above.
 
 Api: Yahoo Finance   
 
-How to run the code:
-you got to have a facebook fan page with web and install ngrok
-run : ngrok http 5000
-run : python3 dialogue_manager4.py
-but there are some more detail see here: 
-https://github.com/hungtraan/FacebookBot
+How to run the code:  
+you got to have a facebook fan page with web and install ngrok  
+run : ngrok http 5000  
+run : python3 dialogue_manager4.py  
+
+but there are some more detail see here:  
+https://github.com/hungtraan/FacebookBot  
