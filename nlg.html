@@ -6,15 +6,15 @@
 -->
 <html>
 	<head>
-		<title>FinBot</title>
+		<title>NLG</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body>
+	<body class="subpage">
 
 		<!-- Header -->
-			<header id="header">
+			<header id="header" class="alt">
 				<div class="logo"><a href="index.html">FinBot</a></div>
 				<a href="#menu"><span>Menu</span></a>
 			</header>
@@ -25,66 +25,37 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="generic.html">Language Understanding</a></li>
 					<li><a href="elements.html">Dialogue Management</a></li>
-					<li><a href="elements.html">Language Generation</a></li>
-					
+					<li><a href="nlg.html">Language Generation</a></li>
 				</ul>
 			</nav>
 
-		<!-- Banner -->
+		<!-- Content -->
 		<!--
 			Note: To show a background image, set the "data-bg" attribute below
 			to the full filename of your image. This is used in each section to set
 			the background image.
 		-->
-			<section id="banner" class="bg-img" data-bg="banner.jpg">
-				<div class="inner">
-					<header>
-						<h1>Financial Conversational Robot</h1>
-					</header>
-				</div>
-				<a href="#one" class="more">Learn More</a>
-			</section>
-
-		<!-- One -->
-			<section id="one" class="wrapper post bg-img" data-bg="banner2.jpg">
+			<section id="post" class="wrapper bg-img" data-bg="banner2.jpg">
 				<div class="inner">
 					<article class="box">
 						<header>
-							<h2>OVERVIEW</h2>
+							<h2>Language Generation</h2>
 							<p>06.24.2017</p>
 						</header>
 						<div class="content">
-							<p>This is financial robot website, in here we show you how to build a Finbot using facebook interface. Our finbot support stock information request, exchange rate request and USDX request. Our major component including voice recognition, natural language understanding, dialogue management and natural language generation.</p>
-						</div>
-					</article>
-				</div>
-			</section>
+							<p>Model</p>
 
-		<!-- Two -->
-			<section id="two" class="wrapper post bg-img" data-bg="banner5.jpg">
-				<div class="inner">
-					<article class="box">
-						<header>
-							<h2>ONTOLOGY</h2>
-							<p>06.24.2017</p>
-						</header>
-						<div class="content">
-							<p>Here shows the graph of our ontology.</p>
-							<p>Exchange function shows the exchange rate between two different countries’ currency.</p>
-							<p>USDX function shows the detail Price of US Dollar Index during a period.</p>
-							<p>Query function shows the detail information of the chosen stock at a chosen date.</p>
-							<p>Get Exchange Rate function shows different rates of both selling  or buying foreign currency against NTD, with cash or account.</p>
+							<p>The model is a sequence to sequence recurrent neural network with attention model based on the Tensorflow framework. Referenced from the paper [1].</p>
+							<img src="./images/nlg.jpg" width="600" height="450">
+							<p></p><p></p><p></p>
+							<p>[1] Ondřej Dušek and Filip Jurčíček (2016): Sequence-to-Sequence Generation for Spoken Dialogue via Deep Syntax Trees and Strings. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics, Berlin, Germany.</p>
+							
 						</div>
-					</article>
-				</div>
-			</section>
-
-		<!-- Three -->
-			<section id="three" class="wrapper post bg-img" data-bg="banner4.jpg">
-				<div class="inner">
-					<article class="box">
 						<footer>
-							<a href="https://github.com/yvchen/FinBot2" class="button alt" style="width:600px;height:150px;font-size:50px;">View on GitHub</a>
+							<ul class="actions">
+								<li><a href="#" class="button alt icon fa-chevron-left"><span class="label">Previous</span></a></li>
+								<li><a href="#" class="button alt icon fa-chevron-right"><span class="label">Next</span></a></li>
+							</ul>
 						</footer>
 					</article>
 				</div>
