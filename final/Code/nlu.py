@@ -1,11 +1,3 @@
-'''
-A Bidirectional Recurrent Neural Network (LSTM) implementation example using TensorFlow library.
-This example is using the MNIST database of handwritten digits (http://yann.lecun.com/exdb/mnist/)
-Long Short Term Memory paper: http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf
-Author: Aymeric Damien
-Project: https://github.com/aymericdamien/TensorFlow-Examples/
-'''
-
 from __future__ import print_function
 
 import tensorflow as tf
@@ -13,12 +5,6 @@ from tensorflow.contrib import rnn
 import numpy as np
 from w2v import DataPrepare
 import argparse
-'''
-To classify images using a bidirectional recurrent neural network, we consider
-every image row as a sequence of pixels. Because MNIST image shape is 28*28px,
-we will then handle 28 sequences of 28 steps for every sample.
-'''
-# python s_v.py --glove "../glove/glove.6B.200d.txt" --train_p "../Data/" --slot_l "../Data/slot_l.txt" --intent_l "../Data/intent_l.txt"
 
 config = tf.ConfigProto()
 config.gpu_options.allow_growth = True
@@ -47,31 +33,21 @@ epoc = 10
 batch_size = 3
 display_step = 50
 
-# Network Parameters
-#n_input = 28 # MNIST data input (img shape: 28*28)
-#n_steps = 28 # timesteps
 n_hidden = 128 # hidden layer num of features
-#n_classes = 10 # MNIST total classes (0-9 digits)
 n_words = Data.maxlength
 n_slot = Data.slot_dim
 n_intent = Data.intent_dim
 w2v_l = 200
 
-"""
-SAP Parameters
-"""
 S_learning_rate = 0.001
 S_training_iters = 400000
 S_batch_size = 1
 
 # Network Parameters
-S_vector_length = Data.slot_dim + Data.intent_dim # MNIST data input (img shape: 28*28) /////vector length 613    
-S_n_sentences = 3 # timesteps /////number of sentences 
+S_vector_length = Data.slot_dim + Data.intent_dim #vector length 613    
+S_n_sentences = 3 #number of sentences 
 S_n_hidden = 128 # hidden layer num of features
-S_n_labels = Data.intent_dim # MNIST total classes (0-9 digits)
-
-#sap_x = tf.placeholder("float", [None, S_n_sentences, S_vector_length])
-#sap_y = tf.placeholder("float", [None, S_n_labels])
+S_n_labels = Data.intent_dim 
 
 # tf Graph input
 x = tf.placeholder("float", [None, n_words, w2v_l])
@@ -156,21 +132,14 @@ def write_out(label_dict,fout,mertix):
 
 slot_pred = slot_BiRNN(x, weights, biases,s_Lstmcell,n_words)
 SAP_slot = tf.reduce_sum(slot_pred,0)
-#pred_out = slot_out(Data,pred)
 _slot_loss = slot_loss(slot_pred,y_slot,Data)
 
 
 intent_pred = intent_BiRNN(x,weights,biases,i_Lstmcell,n_words)
-#SAP_input = tf.stack(SAP_slot)
 _intent_loss = intent_loss(intent_pred,y_intent)
 
 
 
-# else:
-#     pred = intent_BiRNN(x,weights,biases)
-#     pred_out = tf.argmax(pred,axis=1)
-#     loss = intent_loss(pred,y_intent)
-# Define loss and optimizer
 slot_pred_acc = tf.equal(tf.argmax(tf.transpose(slot_pred,perm=[1,0,2]),axis=2),tf.argmax(y_slot,axis=2))
 slot_acc = tf.reduce_mean(tf.cast(slot_pred_acc,tf.float32))
 
@@ -180,11 +149,6 @@ int_acc = tf.reduce_mean(tf.cast(int_pred_acc, tf.float32))
 
 _slot_optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(_slot_loss)
 _intent_optimizer = tf.train.AdamOptimizer(learning_rate=S_learning_rate).minimize(_intent_loss)
-# Evaluate model
-#correct_pred = tf.equal(tf.argmax(pred,1), tf.argmax(y,1)) 
-#accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
-
-
 
 saver = tf.train.Saver()
 
@@ -214,10 +178,6 @@ if args.test == False:
                 intd = Data.rev_intentdict
                 _,_ = sess.run([_slot_optimizer,_intent_optimizer],feed_dict={x:nlu_in,y_slot: _s_nlu_out,y_intent: _i_nlu_out})
                 
-                # if step % display_step == 0:
-                #     # Calculate batch accuracy
-                #     acc = sess.run(accuracy, feed_dict={x: batch_x, y: batch_y})
-                #     # Calculate batch loss
                 if i % 100 == 0 and i != 0:
                     tmp = sess.run([int_out],feed_dict={x:nlu_in,y_slot: _s_nlu_out,y_intent: _i_nlu_out})
                     i_a,s_a = sess.run([int_acc,slot_acc],feed_dict={x:nlu_in,y_slot: _s_nlu_out,y_intent: _i_nlu_out})
@@ -233,14 +193,6 @@ if args.test == False:
                         i_a,s_a = sess.run([int_acc,slot_acc],feed_dict={x:t_nlu_in,y_slot: t_snlu,y_intent: t_inlu})
                         s_ac += s_a
                         int_ac += i_a
-                        #s_p,int_p = sess.run([slot_pred,intent_pred],feed_dict={\
-                        #    x:t_nlu_in,y_slot:t_snlu,y_intent:t_inlu})
-                        #s_p = np.transpose(s_p,[1,0,2])
-                        #int_p = np.transpose(int_p,[1,0,2])
-                        #write_out(Data.rev_slotdict,fout,t_snlu)
-                        #write_out(Data.rev_slotdict,fout,s_p)
-                        #write_out(Data.rev_intentdict,fout,t_inlu)
-                        #write_out(Data.rev_intentdict,fout,int_p)
                     print("Testing" +str(step) + " "+ str(i) +" {:.6f}".format(s_ac/len(t_in))+" "+"{:.6f}".format(int_ac/len(t_in)))
             step += 1
         save_path = saver.save(sess,"../model/model.ckpt")
@@ -262,12 +214,4 @@ else:
             i_a,s_a = sess.run([int_acc,slot_acc],feed_dict={x:t_nlu_in,y_slot: t_snlu,y_intent: t_inlu})
             s_ac += s_a
             int_ac += i_a
-            #s_p,int_p = sess.run([slot_pred,intent_pred],feed_dict={\
-            #    x:t_nlu_in,y_slot:t_snlu,y_intent:t_inlu})
-            #s_p = np.transpose(s_p,[1,0,2])
-            #int_p = np.transpose(int_p,[1,0,2])
-            #write_out(Data.rev_slotdict,fout,t_snlu)
-            #write_out(Data.rev_slotdict,fout,s_p)
-            #write_out(Data.rev_intentdict,fout,t_inlu)
-            #write_out(Data.rev_intentdict,fout,int_p)
         print("Testing" +" {:.6f}".format(s_ac/len(t_in))+" "+"{:.6f}".format(int_ac/len(t_in)))
