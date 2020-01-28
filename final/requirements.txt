@@ -175,7 +175,7 @@ smclib==1.7.19
 SpeechRecognition==3.6.5
 ssh-import-id==5.5
 system-service==0.3
-tensorflow-gpu==1.1.0
+tensorflow-gpu==1.15.2
 tf==1.11.8
 tf-conversions==1.11.8
 tf2-geometry-msgs==0.5.15
