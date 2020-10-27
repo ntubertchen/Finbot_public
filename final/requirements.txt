@@ -16,7 +16,7 @@ command-not-found==0.3
 controller-manager==0.11.4
 controller-manager-msgs==0.11.4
 convert==0.1.2
-cryptography==1.2.3
+cryptography==3.2
 cv-bridge==1.12.4
 cycler==0.10.0
 Cython==0.25.2
