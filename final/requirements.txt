@@ -51,7 +51,7 @@ image-geometry==1.12.4
 imbalanced-learn==0.3.0.dev0
 interactive-markers==1.11.3
 itsdangerous==0.24
-Jinja2==2.8
+Jinja2==2.11.3
 joblib==0.11
 Keras==2.0.4
 language-selector==0.1
