@@ -157,7 +157,7 @@ rqt-tf-tree==0.5.7
 rqt-top==0.4.8
 rqt-topic==0.4.8
 rqt-web==0.4.8
-rsa==3.4.2
+rsa==4.7
 ruamel.yaml==0.15.9
 rviz==1.12.4
 scikit-learn==0.18.1
